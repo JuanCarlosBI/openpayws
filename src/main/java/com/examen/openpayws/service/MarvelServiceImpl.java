@@ -13,12 +13,6 @@ import java.util.List;
 
 @Service
 public class MarvelServiceImpl extends GenericServiceImpl<com.examen.openpayws.bean.Respuesta,Long > implements MarvelService {
-    private static final String BASE_URL = "https://gateway.marvel.com:443/v1/public/characters";
-    private static final String API_KEY_PUBLIC = "23edc1b6133b84ad8cb023d783166207";
-    private static final String API_KEY_PRIVATE = "0dcf1291561dfec702ad8d45eee4fff122247749";
-    private static final String CODIGO = "1";
-
-    private static final String HASH = "59b3cc1af7eb6b398cbd43b8e4aa8c73";
 
     @Autowired
     RespuestaDao respuestaDao;
